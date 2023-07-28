@@ -1,0 +1,29 @@
+body{
+    .wrap{
+        #circle{
+            article.face1{
+                transform: rotateY(0deg) translateZ(-764px);
+                .inner{
+                    >div{
+                        width: 290px;
+                        height: calc(760px / 3);
+                        float: left;
+                        margin-bottom: 20px;
+                        margin-right: 20px;
+                        text-align: center;
+                        &:nth-of-type(2n){
+                            margin-right: 0;
+                            // margin-right 20px 때문에 다 내려오니까 없애줘야됨
+                        }
+                        p i{
+                            // 유지보수를 생각해도 해당 코드에 쓸 게 없으면 이렇게 써도 됨
+                            font-size: 100px;
+                            margin-bottom: 20px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

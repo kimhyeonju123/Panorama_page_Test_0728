@@ -1,0 +1,35 @@
+body{
+    .wrap{
+        #circle{
+            article.face6{
+                transform: rotateY(225deg) translateZ(-764px);
+                .inner{
+                    >div{
+                        width: 100%;
+                        height: calc(740px / 4);
+                        margin-bottom: 20px;
+                        i{
+                            float: left;
+                            width: 22%;
+                            height: 100%;
+                            font-size: 50px;
+                            color: #fff;
+                            line-height: 90px;
+                            padding-left: 15px;
+                        }
+                        .con{
+                            float: right;
+                            width: 75%;
+                            height: 100%;
+                            padding-left: 40px;
+                            p{
+                                font: 18px/1.2 "arial";
+                                color: #999;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

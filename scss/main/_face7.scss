@@ -1,0 +1,52 @@
+body{
+    .wrap{
+        #circle{
+            article.face7{
+                transform: rotateY(270deg) translateZ(-764px);
+                .inner{
+                    >div{
+                        width: 100%;
+                        height: 100%;
+                        div{
+                            width: 100%;
+                            height: 100%;
+                            overflow: hidden;
+                            position: relative;
+                            border: 1px solid #aaa;
+                            video{
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                opacity: 0.8;
+                                // 안해주면 눈아픔
+                            }
+                            h2{
+                                position: absolute;
+                                top: 140px;
+                                left: 50px;
+                                z-index: 2;
+                                font-size: 40px;
+                                color: #fff;
+                                text-shadow: 2px 2px 5px #555;
+                            }
+                            img{
+                                &:nth-of-type(1){
+                                    position: absolute;
+                                    bottom: 0;
+                                    right: 0;
+                                }
+                                &:nth-of-type(2){
+                                    position: absolute;
+                                    bottom: 85px;
+                                    right: -18px;
+                                    // 0px은 끝에 잘려있는 게 보이니까 안보이게 해준거임
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
